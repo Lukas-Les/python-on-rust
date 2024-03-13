@@ -3,4 +3,4 @@ if [ ! -d $VENV_NAME ]; then
     python -m venv $VENV_NAME
 fi
 source .venv/Scripts/Activate
-pip install maturin
+pip install -r requirements.txt
